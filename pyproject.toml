@@ -1,7 +1,7 @@
 [project]
-name = "podcaster"
+name = "podcraft_ai"
 version = "0.1.0"
-description = "podcaster using crewAI"
+description = "a multi-agent podcast generator"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.14"
 dependencies = [
@@ -9,11 +9,11 @@ dependencies = [
 ]
 
 [project.scripts]
-podcaster = "podcaster.main:run"
-run_crew = "podcaster.main:run"
-train = "podcaster.main:train"
-replay = "podcaster.main:replay"
-test = "podcaster.main:test"
+podcaster = "podcraft.main:run"
+run_crew = "podcraft.main:run"
+train = "podcraft.main:train"
+replay = "podcraft.main:replay"
+test = "podcraft.main:test"
 
 [build-system]
 requires = ["hatchling"]
